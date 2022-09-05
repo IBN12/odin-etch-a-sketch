@@ -1,0 +1,48 @@
+/*h1 - Header for the page. */
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: monospace;
+}
+
+/* page-container - This is the main container for the entire page.*/
+.page-container{
+    display: flex;
+    padding: 5px;
+    gap: 15px; 
+    width: fit-content;
+}
+.page-container div{
+    flex: initial; /* flex: 0 1 auto; */
+}
+.page-container .item-2-grid{ /* Item 2 will contain the grid container. */
+    padding: 10px;
+}
+
+/* grid-container - The main container for the grid. */
+.grid-container{
+    display: inline-block;
+    border: 3px solid black;
+    padding: 10px;  
+}
+
+/* grid-rows - This container will hold a set of columns for the grid. */
+.grid-rows{
+    display:flex;
+}
+.grid-rows div{
+    border: 1px solid black;
+}
+
+/* change-color - Each item inside the grid-container div will change color. */
+.change-color{
+    background-color:aqua;
+}
+
+/* new-grid - New Grid button at the top of the page. */
+#new-grid{
+    background-color: #CCFFFF;
+}
+#new-grid:hover{
+    background-color: #85FFFF;
+}
